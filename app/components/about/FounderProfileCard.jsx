@@ -17,7 +17,7 @@ export default function FounderProfileCard() {
         transition: { duration: 2, ease: "easeInOut" },
       }}
       viewport={{ once: true }}
-      className="min-h-screen w-[95vw] 2xl:w-[90vw] text-white mx-auto flex flex-col gap-10 lg:gap-[3.75rem] "
+      className="min-h-screen w-[95vw] 2xl:w-[90vw] text-white mx-auto flex flex-col gap-10 lg:gap-[3.75rem] mt-20"
     >
       <p className=" xl:mb-[2rem]  flex flex-col custom-break-1200:flex-row xl:flex-row justify-center custom-break-1200:self-start xl:self-start items-center gap-3">
         <span className="text-[#F58327] bg-[#232323] text-[0.75rem] xl:text-[0.688rem] text-nowrap leading-[1.5rem] xl:leading-[1.375rem] font-black inline rounded-full px-3 py-1 uppercase satoshi">

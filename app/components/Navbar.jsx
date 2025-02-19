@@ -25,11 +25,16 @@ const Navbar = () => {
         <img src={config.navbar.logo} alt="Logo" />
       </div>
 
-      <div className="hidden md:flex space-x-4 rounded-full bg-[#0d0d0d] border-[0.5px] p-2 text-sm">
+      <div className="hidden lg:flex space-x-4 rounded-full bg-[#0d0d0d] border-[0.5px] p-2 text-sm">
         <Link href="/" className={`rounded-full px-4 py-2 ${isActive("/")}`}>
           HOME
         </Link>
-        {/* <Link href="/about" className={`rounded-full px-4 py-2 ${isActive("/about")}`}>ABOUT</Link> */}
+        <Link
+          href="/about"
+          className={`rounded-full px-4 py-2 ${isActive("/about")}`}
+        >
+          ABOUT
+        </Link>
         <Link
           href="/services"
           className={`rounded-full px-4 py-2 ${isActive("/services")}`}
@@ -42,12 +47,12 @@ const Navbar = () => {
         >
           PROJECTS
         </Link>
-        <Link
+        {/* <Link
           href="/staffing"
           className={`rounded-full px-4 py-2 ${isActive("/staffing")}`}
         >
           STAFF AUGUMENTATION
-        </Link>
+        </Link> */}
         <Link
           href="/blog"
           className={`rounded-full px-4 py-2 ${isActive("/blog")}`}
@@ -62,7 +67,7 @@ const Navbar = () => {
         </Link>
       </div>
 
-      <button className="md:hidden text-white" onClick={toggleMenu}>
+      <button className="lg:hidden text-white" onClick={toggleMenu}>
         {isMenuOpen ? (
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -97,7 +102,7 @@ const Navbar = () => {
       </button>
 
       <div
-        className={`md:hidden ${
+        className={`lg:hidden ${
           isMenuOpen ? "block" : "hidden"
         } absolute top-11 left-0 right-0 bg-[#0d0d0d] text-white text-sm px-4 py-6 flex flex-col items-center space-y-4 overflow-hidden`}
       >
@@ -161,7 +166,7 @@ const Navbar = () => {
 
       <Link
         href="contact"
-        className="hidden md:block bg-[#FF7A30] rounded-full px-4 py-2"
+        className="hidden lg:block bg-[#FF7A30] rounded-full px-4 py-2"
       >
         {" "}
         Contact Us ↗

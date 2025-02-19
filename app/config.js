@@ -393,14 +393,14 @@ const config = {
   about: {
     welcome: `<span className="text-white">Hey There! Welcome to</span>
                 <br className="md:hidden" />
-                <span className="text-[#F58327]"> Celestial Solutions!</span>`,
+                <span className="text-[#F58327]"> Innvoket Tech!</span>`,
     aboutContent: `Let&apos;s get acquainted! We&apos;re not your average digital
                     marketing agency - we&apos;re a team of passionate individuals
                     who eat, sleep, and breathe
                     <span className="text-white">
                       creativity, innovation, and all things digital.
                     </span>
-                    At <span className="text-white ">Celestial Solutions</span>,
+                    At <span className="text-white ">Innvoket Tech</span>,
                     we&apos;re on a mission to make your online
                     <span className="text-[#F58327]">dreams come true</span>, one
                     pixel at a time! We&apos;re a bunch of
@@ -414,18 +414,18 @@ const config = {
       {
         number: "01",
         title: "Our History",
-        content: `Founded in 2010 by digital marketing expert Emily Johnson, Celestial Solutions began as a small consultancy serving local businesses in the bustling city of New York. With a team of just three passionate individuals, the agency quickly gained traction, thanks to its innovative approach and dedication to client success.<br/><br/>
+        content: `Founded in 2010 by digital marketing expert Emily Johnson, Innvoket Tech began as a small consultancy serving local businesses in the bustling city of New York. With a team of just three passionate individuals, the agency quickly gained traction, thanks to its innovative approach and dedication to client success.<br/><br/>
   
-                By 2015, Celestial Solutions had expanded its reach, serving clients across the United States and boasting a team of 15 talented professionals. The agency's client portfolio had grown to include a diverse range of industries, from e-commerce startups to established brick-and-mortar businesses.<br/><br/>
+                By 2015, Innvoket Tech had expanded its reach, serving clients across the United States and boasting a team of 15 talented professionals. The agency's client portfolio had grown to include a diverse range of industries, from e-commerce startups to established brick-and-mortar businesses.<br/><br/>
   
-                In 2020, Celestial Solutions celebrated its 10th anniversary with pride, having grown into a leading digital marketing agency with a global footprint. With offices in New York, London, and Sydney, the agency now serves clients around the world, supported by a team of over 50 experts specializing in SEO, social media marketing, content creation, website design, and more.<br/><br/>
+                In 2020, Innvoket Tech celebrated its 10th anniversary with pride, having grown into a leading digital marketing agency with a global footprint. With offices in New York, London, and Sydney, the agency now serves clients around the world, supported by a team of over 50 experts specializing in SEO, social media marketing, content creation, website design, and more.<br/><br/>
   
-                As we look ahead to the next decade, Celestial Solutions remains committed to its founding principles of innovation, integrity, and excellence, continuing to empower businesses to thrive in the ever-evolving digital landscape.<br/><br/>`,
+                As we look ahead to the next decade, Innvoket Tech remains committed to its founding principles of innovation, integrity, and excellence, continuing to empower businesses to thrive in the ever-evolving digital landscape.<br/><br/>`,
       },
       {
         number: "02",
         title: "Our Mission",
-        content: `At Celestial Solutions, our mission is to empower businesses to thrive in the digital age through innovative strategies, personalized solutions, and unwavering commitment to excellence. We strive to deliver tangible results and exceptional experiences.`,
+        content: `At Innvoket Tech, our mission is to empower businesses to thrive in the digital age through innovative strategies, personalized solutions, and unwavering commitment to excellence. We strive to deliver tangible results and exceptional experiences.`,
       },
       {
         number: "03",
@@ -445,7 +445,7 @@ const config = {
     },
     FounderSection: {
       firstPara: `James Andrews, <span className="text-white">the heart</span> of
-        Celestial Solutions. With a decade of
+        Innvoket Tech. With a decade of
         <span className="text-white"> digital marketing expertise,</span>
         James&apos;s passion for innovation and dedication to clients have
         guided our journey. His
@@ -454,7 +454,7 @@ const config = {
           solutions
         </span>
         shape our commitment to excellence.`,
-      secondPara: `J. Andrews, the driving force behind Celestial Solutions. With over a decade of experience in digital marketing, James's passion for innovation and dedication to client success have been the cornerstone of our agency's growth. His strategic vision and hands-on approach have propelled us to the forefront of the industry, while his commitment to transparency and integrity sets the tone for our team. As a respected leader and mentor, James inspires us to exceed expectations and deliver exceptional results for our clients every day.`,
+      secondPara: `J. Andrews, the driving force behind Innvoket Tech. With over a decade of experience in digital marketing, James's passion for innovation and dedication to client success have been the cornerstone of our agency's growth. His strategic vision and hands-on approach have propelled us to the forefront of the industry, while his commitment to transparency and integrity sets the tone for our team. As a respected leader and mentor, James inspires us to exceed expectations and deliver exceptional results for our clients every day.`,
       founderImage:
         "https://framerusercontent.com/images/uq6zXIDNGe8FdLwyhVsZbOvu0.png?height=800&width=800",
       name: "James",

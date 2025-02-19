@@ -7,7 +7,7 @@ const Projects = () => {
   const { heading, case_studies } = config.projects;
 
   return (
-    <div className="bg-[#0A0A0A] align-middle h-full border">
+    <div className="bg-[#0A0A0A] align-middle h-full mt-10">
       {/* Heading */}
       <motion.div
         initial={{ y: -200, opacity: 0 }}

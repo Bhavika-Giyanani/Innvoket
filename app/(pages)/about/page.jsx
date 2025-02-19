@@ -1,5 +1,5 @@
 "use client";
-import Accordion from "../../components/about/Accordion"; 
+import Accordion from "../../components/about/Accordion";
 import BrandMarquee from "../../components/about/BrandMarquee";
 import FaqSection from "../../components/about/FaqSection";
 import ImageGallery from "../../components/about/ImageGallery";
@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 import FounderProfileCard from "../../components/about/FounderProfileCard";
 import config from "../../config";
 import parse from "html-react-parser";
-import StageProcess from "../../components/about/StageProcess";
+// import StageProcess from "../../components/about/StageProcess";
 import BrandSlider from "../../components/home/BrandSlider";
 const about = () => {
   const { about } = config;
@@ -24,8 +24,8 @@ const about = () => {
             opacity: 1,
             transition: { duration: 2, ease: "easeInOut" },
           }}
-          className="celestial-solutions w-[95%] m-auto h-[171.6px] md:h-[263.12px] lg:h-[417.52px] xl:h-[965.68px] 2xl:h-[70vh] flex flex-col justify-center md:justify-end items-center rounded-[2rem]"
-        > 
+          className="celestial-solutions w-[95%] m-auto h-[171.6px] md:h-[263.12px] lg:h-[417.52px] xl:h-[65vh] 2xl:h-[60vh] flex flex-col justify-center md:justify-end items-center rounded-[2rem]"
+        >
           <motion.h1
             initial={{ y: -200 }}
             animate={{ y: 0, transition: { duration: 2, ease: "easeInOut" } }}
@@ -42,8 +42,8 @@ const about = () => {
         transition={{ duration: 2, ease: "easeInOut" }}
         className="flex flex-col items-center justify-center"
       >
-        <div className="flex flex-col justify-center items-center w-[95vw] custom-break-1200:w-[92vw] xl:w-[95vw] 2xl:w-[95vw] gap-9 md:gap-7 lg:gap-14 xl:gap-6 mx-auto">
-          <p className="mt-5 xl:mb-[2rem]  flex flex-col custom-break-1200:flex-row xl:flex-row justify-center  custom-break-1200:self-start xl:self-start items-center gap-3">
+        <div className="flex flex-col justify-center items-center w-[95vw] xl:mt-[2rem] custom-break-1200:w-[92vw] xl:w-[95vw] 2xl:w-[95vw] gap-9 md:gap-7 lg:gap-14 xl:gap-6 mx-auto">
+          <p className="mt-5 lg:mt-20 2xl:mt-[5rem] xl:mb-[2rem]  flex flex-col custom-break-1200:flex-row xl:flex-row justify-center  custom-break-1200:self-start xl:self-start items-center gap-3">
             <span className="text-[#F58327] bg-[#232323] text-[0.75rem] xl:text-[0.688rem] text-nowrap leading-[1.5rem] xl:leading-[1.375rem] font-black inline rounded-full px-3 py-1 uppercase satoshi">
               WHO WE ARE
             </span>

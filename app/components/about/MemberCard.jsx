@@ -12,7 +12,7 @@ export function MemberCard({
   return (
     <div className="w-full sm:w-[95vw] md:w-[70vw] lg:w-[30vw] 2xl:w-full mx-auto">
       {/* First div with image and text overlay */}
-      <div className="relative overflow-hidden h-[82vh] md:h-[85vh] custom-break-1200:h-[73vh] lg:h-[65vh] xl:h-[52vh] 2xl:h-[70vh] rounded-t-3xl shadow-inner bg-[#161616] group custom-bottom-shadow">
+      <div className="relative overflow-hidden h-[82vh] md:h-[85vh] custom-break-1200:h-[73vh] lg:h-[65vh] xl:h-[52vh] 2xl:h-[30vh] rounded-t-3xl shadow-inner bg-[#161616] group custom-bottom-shadow">
         <div className="relative inset-0 py-4 flex flex-col justify-start transition-transform duration-300 group-hover:-translate-y-8 mt-6">
           <h2 className="text-[#F38227] text-4xl md:text-5xl font-bold unbounded-600 text-left ">
             {orangeText}
