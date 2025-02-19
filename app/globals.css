@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+@import url("https://fonts.cdnfonts.com/css/satoshi");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-[#0f0f0f] font-sans py-6;
+  font-family: "Unbounded", sans-serif;
+}
+
+.satoshi {
+  font-family: "Satoshi", sans-serif;
+}
+
+.inter-500 {
+  font-family: "Inter", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.inter-400 {
+  font-family: "Inter", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.celestial-solutions {
+  background-image: url("https://framerusercontent.com/images/oxuRg8FbESc0Cw7B8qGzTfvqJI.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: rgba(0, 0, 0, 0.608) 0px -150px 30px -28px inset;
+}
+/* Accordion */
+.button-hover:hover .icon-hover {
+  background-color: #f58327;
+  color: #444444;
+}
+
+/*BRands Marquee*/
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.marquee {
+  display: flex;
+  overflow: hidden;
+  user-select: none;
+  white-space: nowrap;
+  position: relative;
+}
+
+.marquee-content {
+  display: flex;
+  animation: scroll 20s linear infinite;
+}
+
+.marquee-content.reverse {
+  animation-direction: reverse;
+}
+
+.marquee-content > * {
+  flex: 0 0 auto;
+  margin: 0 1rem;
+}
+
+.line-height-reduced {
+  line-height: 0.7;
+}
+
+.custom-bottom-shadow {
+  box-shadow: rgb(0, 0, 0, 0.608) 0px -150px 30px -28px inset;
+}
+
+/* Case Studies */
+/*custom cursor */
+
+@keyframes scaleUp {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.cursor-none {
+  cursor: none;
+}
+
+@media (max-width: 768px) {
+  .cursor-none {
+    cursor: pointer;
+  }
+}
+
+.shadow-custom {
+  box-shadow: 0 0 50px 100px rgba(0, 0, 0, 0.5); /* Adjust the values as needed */
+}
+
+/*^ Values-Clamp */
+.values-clamp {
+  font-size: clamp(4.125rem, 0rem + 20.625vw, 33rem);
+}
